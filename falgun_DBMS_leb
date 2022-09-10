@@ -1,0 +1,12 @@
+create table stdn_Detail(S_No number(2), S_Name varchar(20), S_School varchar(20), S_Hobby varchar(20), S_std number(2), S_Gender varchar(20)); 
+insert into stdn_Detail values (1, 'Avi', 'navratri', 'Garba', 13, 'Male');
+insert into stdn_Detail values (2, 'raj', 'navratri', 'singing', 11, 'Male');
+insert into stdn_Detail values (3, 'krina', 'dharamshri', 'dancing', 12, 'female');
+insert into stdn_Detail values (4, 'shila', null, 'writting', 10, 'female');
+insert into stdn_Detail values (null, 'khus', 'navratri', 'Garba', 9, 'male');
+insert into stdn_Detail values (6, 'mohan', 'manmohan', 'sleeping', 11, 'male');
+insert into stdn_Detail values (7, 'meave', 'mordel', 'singing', 12, 'female');
+insert into stdn_Detail values (8, 'otis', 'mordel', 'painting', 12, 'female');
+insert into stdn_Detail values (9, 'eric', 'mordel', 'dancing', 12, 'other');
+insert into stdn_Detail values (10, 'adam', 'mordel', 'teaching', 12, 'Male');
+select*from stdn_Detaill;
